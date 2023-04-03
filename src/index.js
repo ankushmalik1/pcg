@@ -1,10 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+// import { createStore } from "../node_modules/redux/src/utils";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+// import { inputReducer } from "./reducers";
+// import FormComponentContainer from "./App";
+// import { Provider } from "react-redux";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(
+  // <Provider store={store}>
+  //   <FormComponentContainer />
+  // </Provider>,
+  document.getElementById("root")
+);
+// const store = createStore(inputReducer);
 root.render(
   <React.StrictMode>
     <App />
